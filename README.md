@@ -1,4 +1,4 @@
-# GMS2 Screen Positioning
+# GMS2 NPC Movement
 
 
 <!-- OVERVIEW -->
@@ -6,7 +6,7 @@
 
 This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. 
 
-Lets look at more issues positining objects in a gamemaker scene.
+We will look at moving an non playable character in gamemaker (GML).
 
 * Tested on GameMake Studio2.3.5.589
 * An existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project)
@@ -16,9 +16,7 @@ Lets look at more issues positining objects in a gamemaker scene.
 
 <!-- TOC -->
 ## Table of Contents
-<kbd></kbd> &nbsp;&nbsp; [Screen Positioning I](positioning-text-1/README.md#user-content-screen-positioning-i) <br>
-<kbd></kbd> &nbsp;&nbsp; [Screen Positioning II](positioning-text-2/README.md#user-content-screen-positioning-ii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Screen Positioning III](positioning-text-3/README.md#user-content-screen-positioning-iii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Simple Movement](simple-movement/README.md#user-content-screen-positioning-i) <br>
 
 
 

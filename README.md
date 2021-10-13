@@ -9,7 +9,7 @@ This tutorial is intended for those wanting an introduction to <i>GameMaker Stud
 We will look at moving an non playable character in gamemaker (GML).
 
 * Tested on GameMake Studio2.3.5.589
-* An existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project)
+* An existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-simple-movement)
 
 <br>
 

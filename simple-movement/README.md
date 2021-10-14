@@ -95,7 +95,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 ##### `Step 7.`\|`NPCM`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on **Objects** and select **Create | Object**, call the file `obj_npc`.  Right click on **Sprites** and click on **Create | Sprite** and call it `spr_npc`. Press the <kbd>Edit Image</kbd> button and select the **Yellow** color and the **Fill Tool**. Click in the sprite to fill it to a yellow square.  Go back to **obj_npc** and assign the new **spr_sprite**.
+
+![add obj_npc and spr_npc as a yellow cube](images/AddObjSprNPC.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

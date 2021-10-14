@@ -25,7 +25,7 @@ Now what is an NPC?  It is a <i>Non Playable Character</i> in game that moves th
 
 Right click on **Objects** in the Resources menu and select **Create | Object**.  Call this new object `obj_movement_controller`. Left click on the <kbd>Add Event</kbd> button and select a **Draw | Draw** event:
 
-![alt_text](images/.png)
+![add obj_movement_controller and add draw event](images/ObjMovementController.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

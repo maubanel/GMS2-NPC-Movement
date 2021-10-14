@@ -23,7 +23,7 @@ Now what is an NPC?  It is a <i>Non Playable Character</i> in game that moves th
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on **Objects** in the Resources menu and select **Create | Object**.  Call this new object `obj_movement_controller`. Left click on the <kbd>Add Event</kbd> button and select a **Draw | Draw** event:
+Right click on **Objects** in the Resources menu and select **Create | Object**.  Call this new object `obj_movement_controller`. Left click on the <kbd>Add Event</kbd> button and select a **Draw | Draw** event.
 
 ![add obj_movement_controller and add draw event](images/ObjMovementController.gif)
 
@@ -31,7 +31,15 @@ Right click on **Objects** in the Resources menu and select **Create | Object**.
 
 ##### `Step 3.`\|`NPCM`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Copy and paste the following into the **Draw Event** in **obj_movement_controller**:
+Now lets create two boxes that the square will start and end at. We have a new function to look at: `draw_rectangle(x1, y1, x2, y2, outline)`. In this case x1,y1 are the top left corner in room pixels and x2, y2 are the bottom right.  **Outline** if `true` means there is only an outline and if `false` it will be filled in. We will just need the outline so we will make it false.
+
+![illustration of draw rectangle](images/DrawSquareIllustration.gif)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 4.`\|`NPCM`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Copy and paste the following into the **Draw Event** in **obj_movement_controller**.  This will draw a title and make two different colored boxes on the top left and bottom right of hte screen.
 
 ```gml
 /// @description Draw Title and Target
@@ -66,25 +74,22 @@ draw_set_halign(fa_left);
 ```
 ![copy and paste above script](images/copyPasteScript.png)
 
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 4.`\|`NPCM`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`NPCM`| :small_orange_diamond:
+
 Open up **rm_npc_movement** and drag a copy of **obj_movement_controller** into the scene.
 
 ![draw obj_movement_controller into rm_npc_movement](images/drageObjectInRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 5.`\|`NPCM`| :small_orange_diamond:
+##### `Step 6.`\|`NPCM`| :small_orange_diamond: :small_blue_diamond:
+
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You will see a yellow box that the NPC will start in and a green box for it to trabvel to.
 
 ![level running with begining and end point](images/EmptyLevel.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 6.`\|`NPCM`| :small_orange_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

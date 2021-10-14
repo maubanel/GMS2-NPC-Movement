@@ -127,20 +127,28 @@ Double click **obj_npc** in the room and change the **x** and **y** to `64`.
 
 ##### `Step 11.`\|`NPCM`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the square is positioned exactly where we planned!
+
+![square properly placed in starting position](images/squareInStartingPosition.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`NPCM`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_npc** and press the <kbd>Add Event</kbd> button and selet **Step | Step**.
+
+To move the player we will use a new function **[move_towards_point( x, y, sp )]https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/move_towards_point.htm()**. **x** and **y** is the place in the room your are targeting.  **sp** stands for Speed and is how many pixels per frame that the sprite will move in.  *Open* obj_npc and *add* a **Step | Step** event.  We need to enter the room target that we are moving towards.  The top left corner is at 1176 on the x and 620 on the y, so to compensate for the margin we will move towards `1196` on the x and `640` on the y.  Let's make the **sp** `6`.
+
+![Add move_towards_point to step event in obj_square_movement](images/MoveTowardsScript.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`NPCM`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the square moves to the target just as we planned!
+
+![Run game and square moves to new target](images/MoveTowardsTarget.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

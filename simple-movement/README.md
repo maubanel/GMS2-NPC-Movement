@@ -49,7 +49,7 @@ draw_rectangle(44, 44, 148, 148, true);
 draw_set_color(c_green);
 
 // Draw target rectangle
-draw_rectangle(876, 620, 980, 724, true);
+draw_rectangle(1076, 620, 1180, 724, true);
 
 // set color for title font
 draw_set_color(c_white);

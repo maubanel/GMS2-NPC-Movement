@@ -103,7 +103,9 @@ Right click on **Objects** and select **Create | Object**, call the file `obj_np
 
 ##### `Step 8.`\|`NPCM`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+*Drag* `obj_npc` into **rm_npc_movement**.
+
+![drag obj_npc into room](images/dragnpctoroom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -115,13 +117,17 @@ Right click on **Objects** and select **Create | Object**, call the file `obj_np
 
 ##### `Step 10.`\|`NPCM`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Woops, it is positioned in the wrong spot.  This is not where we wanted it.  We have made a square that starts at 64 pixels on the x and 64 pixels on the y. We want to pin the sprite to the top left corner of the target which is 64 by 64 (as it is at 44 by 44 but have created a 20 pixel margin).
+
+![Run game but square is in wrong position](images/placeSquare.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`NPCM`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Double click **obj_npc** in the room and change the **x** and **y** to `64`.
+
+![change position of obj_jpc to 64 and 64 in room](images/positionNPCinRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

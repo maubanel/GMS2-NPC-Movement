@@ -69,9 +69,9 @@ draw_set_halign(fa_left);
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`NPCM`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-Open up **rm_**
+Open up **rm_npc_movement** and drag a copy of **obj_movement_controller** into the scene.
 
-![alt_text](images/drageObjectInRoom.png)
+![draw obj_movement_controller into rm_npc_movement](images/drageObjectInRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

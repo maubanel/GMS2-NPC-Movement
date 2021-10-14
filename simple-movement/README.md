@@ -23,12 +23,47 @@ Now what is an NPC?  It is a <i>Non Playable Character</i> in game that moves th
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+Right click on **Objects** in the Resources menu and select **Create | Object**.  Call this new object `obj_movement_controller`. Left click on the <kbd>Add Event</kbd> button and select a **Draw | Draw** event:
+
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`NPCM`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Copy and paste the following into the room:
+
+```gml
+/// @description Draw Title and Target
+
+// Center text alignment
+draw_set_halign(c_center);
+
+// Set the color to yellow
+draw_setColor(c_yellow);
+
+// Draw start rectangle
+draw_rectangle(44, 44, 148, 148, true);
+
+// Set color to green
+draw_set_color(c_green);
+
+// Draw target rectangle
+draw_rectangle(876, 620, 980, 724, true);
+
+// set color for title font
+draw_set_color(c_white);
+
+// Titel top center of hte room
+draw_text(room_width * .5, 20, "Movement Room");
+
+// Reset draw color
+draw_set_color(c_white);
+
+// Reset alignment
+draw_set_halign(fa_left);
+
+```
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>

@@ -31,7 +31,7 @@ Right click on **Objects** in the Resources menu and select **Create | Object**.
 
 ##### `Step 3.`\|`NPCM`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Copy and paste the following into the room:
+Copy and paste the following into the **Draw Event** in **obj_movement_controller**:
 
 ```gml
 /// @description Draw Title and Target
@@ -49,7 +49,7 @@ draw_rectangle(44, 44, 148, 148, true);
 draw_set_color(c_green);
 
 // Draw target rectangle
-draw_rectangle(1076, 620, 1180, 724, true);
+draw_rectangle(1176, 620, 1280, 724, true);
 
 // set color for title font
 draw_set_color(c_white);
@@ -64,7 +64,7 @@ draw_set_color(c_white);
 draw_set_halign(fa_left);
 
 ```
-![alt_text](images/.png)
+![copy and paste above script](images/copyPasteScript.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

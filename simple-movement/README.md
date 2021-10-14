@@ -37,7 +37,7 @@ Copy and paste the following into the room:
 /// @description Draw Title and Target
 
 // Center text alignment
-draw_set_halign(c_center);
+draw_set_halign(fa_center);
 
 // Set the color to yellow
 draw_set_color(c_yellow);

@@ -40,7 +40,7 @@ Copy and paste the following into the room:
 draw_set_halign(c_center);
 
 // Set the color to yellow
-draw_setColor(c_yellow);
+draw_set_color(c_yellow);
 
 // Draw start rectangle
 draw_rectangle(44, 44, 148, 148, true);

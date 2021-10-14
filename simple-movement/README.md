@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Lets move a non playable character in the most basic way possible using GML.
 
 <br>
 
@@ -14,6 +14,8 @@ Chapter introduction here.
 
 
 ##### `Step 1.`\|`NPCM`|:small_blue_diamond:
+
+Now what is an NPC?  It is a <i>Non Playable Character</i> in game that moves through logic and a script and not by the controlle, mouse or keyboard.  Lets start by right clicking on **Rooms** and selecting **Create | Room** and call this room `rm_npc_movement`. *Move* it to the top of the list in **Room Order**.   
 
 ![alt_text](images/.png)
 

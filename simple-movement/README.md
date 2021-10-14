@@ -146,7 +146,7 @@ To move the player we will use a new function **[move_towards_point( x, y, sp )]
 
 ##### `Step 13.`\|`NPCM`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the square moves to the target just as we planned!
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the square moves to the target just as we planned! Notice that it might jitter at the end as the cube under or overshoots its target based on its speed and distance travelled so never hits the final spot.  
 
 ![Run game and square moves to new target](images/MoveTowardsTarget.gif)
 

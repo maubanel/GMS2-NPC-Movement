@@ -76,8 +76,9 @@ Open up **rm_npc_movement** and drag a copy of **obj_movement_controller** into 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`NPCM`| :small_orange_diamond:
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You will see a yellow box that the NPC will start in and a green box for it to trabvel to.
 
-![alt_text](images/.png)
+![level running with begining and end point](images/EmptyLevel.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
